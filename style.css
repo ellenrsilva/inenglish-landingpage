@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Nunito:wght@700&family=Source+Sans+Pro:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.botao_enter {
+    background-color: #FBE881;
+    width: 140px;
+    text-align: center;
+    border-radius: 100px;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    border-color: #FBE881;
+    border:#FBE881;
+}
+
+.logotipo {
+    height: 48px;
+}
+
+.conteudo {
+    margin: 1% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo_ {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.titulo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+}
+
+.titulo_destaque_ {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #210068;
+}
+
+.texto {
+    font-family:  'Asap', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #141313;
+}
+
+.botao_ {
+    border: none;
+    padding: 12px 12px 12px 12px;
+    border-radius: 100px;
+    width: 298.84px;
+    background-color: #FBE881;
+    text-align: center;
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
